@@ -24,7 +24,8 @@ void SuchTreug()
 
 void PTreug()
 {
-
+    int perimeter = a + b + c;
+    cout << "Периметр треугольника: " << perimeter << endl;
 }
 
 int main() {
