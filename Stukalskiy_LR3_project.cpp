@@ -15,7 +15,11 @@ void EnterNumbers()
 
 void SuchTreug()
 {
-
+ if (a + b > c && a + c > b && b + c > a) {
+        cout << "Треугольник с такими сторонами существует." << endl;
+    } else {
+        cout << "Треугольник с такими сторонами НЕ существует." << endl;
+    }
 }
 
 void PTreug()
